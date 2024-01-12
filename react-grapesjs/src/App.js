@@ -1,9 +1,10 @@
-import grapesjs from "grapesjs"
+import React, {useState, useEffect} from "react";
+import grapesjs from "grapesjs";
 
 function App() {
   return (
     <div className="App">
-      Grapes JS Example
+      <div id="editor"></div>
     </div>
   );
 }
