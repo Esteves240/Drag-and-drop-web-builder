@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import grapesjs from "grapesjs";
-
+import "./styles/main.scss";
+ 
 function App() {
   const [editor, setEditor] = useState(null);
   useEffect(() => {
